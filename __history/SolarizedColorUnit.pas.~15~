@@ -1,0 +1,50 @@
+// NOTE =========================================================================
+// Title      : SolarizedColorUnit
+// ==============================================================================
+// License    : MIT
+// Author     : Penguin-Works
+// Make       : 2013/11/09
+// Finish     : 2013/11/09
+// LastSave   : 2013/11/09
+// ==============================================================================
+// Abstruct   :
+// Solarized Color for Delphi
+//
+// Original Color Code By
+// http://ethanschoonover.com/solarized
+// ==============================================================================
+unit SolarizedColorUnit ;
+
+interface
+
+  uses
+    Winapi.Windows ,
+    System.SysUtils ,
+    System.Classes ,
+    Vcl.Graphics ;
+
+  type
+    TSolarised = record
+      const
+      base03 = RGB( 0 , 43 , 54 ),
+        base02 = RGB( 7 , 54 , 66 ),
+        base01 = RGB( 88 , 110 , 117 ),
+        base00 = RGB( 101 , 123 , 131 ),
+        base0 = RGB( 131 , 148 , 150 ),
+        base1 = RGB( 147 , 161 , 161 ),
+        base2 = RGB( 238 , 232 , 213 ),
+        base3 = RGB( 253 , 246 , 227 ),
+        yellow = RGB( 181 , 137 , 0 ),
+        orange = RGB( 203 , 75 , 22 ),
+        red = RGB( 220 , 50 , 47 ),
+        magenta = RGB( 211 , 54 , 130 ),
+        violet = RGB( 108 , 113 , 196 ),
+        blue = RGB( 38 , 139 , 210 ),
+        cyan = RGB( 42 , 161 , 152 ),
+        green = RGB( 133 , 153 , 0 )
+        : TColor ;
+    end ;
+
+implementation
+
+end.

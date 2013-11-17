@@ -1,0 +1,15 @@
+unit SolarizedColorUnit;
+
+interface
+
+uses
+    System.SysUtils,
+    System.Classes;
+
+                   var
+
+
+
+implementation
+
+end.

@@ -1,0 +1,82 @@
+﻿unit NinjaPanelUnit ;
+
+interface
+
+  uses
+    Vcl.ExtCtrls ,
+    System.Classes ,
+    Vcl.Controls ;
+
+  type
+    TNinjaPanel = class( TPanel )
+      public
+        constructor Create( aOwner : TComponent ) ;
+
+      protected
+        procedure fOnMouseDown( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+        procedure fOnMouseMove( Sender : TObject ; Shift : TShiftState ; X , Y : Integer ) ;
+        procedure OnMouseLeave( Sender : TObject ) ;
+        procedure OnMouseUp( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+
+      private
+        procedure CatchMouseAxis( X , Y : Integer ) ;
+        procedure MoveWindow( X , Y : Integer ) ;
+        procedure Focus( X , Y : Integer ) ;
+        procedure UnFocus ;
+
+    end ;
+
+implementation
+
+  { TNinjaPanel }
+  // ===========================================================================
+  //
+  // ===========================================================================
+  constructor TNinjaPanel.Create( aOwner : TComponent ) ;
+  begin
+
+    inherited Create( aOwner ) ;
+
+  end ;
+
+  procedure TNinjaPanel.fOnMouseDown( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.OnMouseLeave( Sender : TObject ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.fOnMouseMove( Sender : TObject ; Shift : TShiftState ; X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.OnMouseUp( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.CatchMouseAxis( X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.MoveWindow( X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.Focus( X , Y : Integer ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.UnFocus ;
+  begin
+
+  end ;
+
+end.

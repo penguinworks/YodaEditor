@@ -1,0 +1,93 @@
+﻿unit NinjaPanelUnit ;
+
+interface
+
+  uses
+    Vcl.ExtCtrls ,
+    Vcl.Controls ,
+    System.Types ,
+    System.Classes ;
+
+  type
+    TNinjaPanel = class( TPanel )
+      public
+        constructor Create( aOwner : TControl ) ;
+
+      protected
+        procedure fOnMouseDown( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+        procedure fOnMouseMove( Sender : TObject ; Shift : TShiftState ; X , Y : Integer ) ;
+        procedure fOnMouseLeave( Sender : TObject ) ;
+        procedure fOnMouseUp( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+
+      private
+
+        startPosInForm : TPoint ;
+        // TODO : Rename :startPosInOwner
+
+      published
+        property Owner : TControl ;
+    end ;
+
+implementation
+
+  uses
+    System.SysUtils ,
+    Vcl.Forms ;
+
+  { TNinjaPanel }
+  // ===========================================================================
+  //
+  // ===========================================================================
+  constructor TNinjaPanel.Create( aOwner : TComponent ) ;
+  begin
+
+    inherited Create( aOwner ) ;
+
+    startPosInForm    := Point( - 1 , - 1 ) ;
+    Self.OnMouseDown  := fOnMouseDown ;
+    Self.OnMouseMove  := fOnMouseMove ;
+    Self.OnMouseLeave := fOnMouseLeave ;
+    Self.OnMouseUp    := fOnMouseUp ;
+
+  end ;
+
+  // ===========================================================================
+  //
+  // ===========================================================================
+  procedure TNinjaPanel.fOnMouseDown( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+  begin
+    if startPosInForm = Point( - 1 , - 1 ) then begin
+      startPosInForm.X := X ;
+      startPosInForm.Y := Y ;
+    end ;
+
+  end ;
+
+  // ===========================================================================
+  //
+  // ===========================================================================
+  procedure TNinjaPanel.fOnMouseMove( Sender : TObject ; Shift : TShiftState ; X , Y : Integer ) ;
+  var
+    diffPoint : TPoint ;
+  begin
+
+    if not( startPosInForm = Point( - 1 , - 1 )) then begin
+      diffPoint := Point( X - startPosInForm.X , Y - startPosInForm.Y ) ;
+
+      Self.Owner.Left := Self.Owner.Left + diffPoint.X ;
+      Self.Owner.Top  := Self.Owner.Top + diffPoint.Y ;
+    end ;
+
+  end ;
+
+  procedure TNinjaPanel.fOnMouseLeave( Sender : TObject ) ;
+  begin
+
+  end ;
+
+  procedure TNinjaPanel.fOnMouseUp( Sender : TObject ; Button : TMouseButton ; Shift : TShiftState ; X , Y : Integer ) ;
+  begin
+    startPosInForm := Point( - 1 , - 1 ) ;
+  end ;
+
+end.

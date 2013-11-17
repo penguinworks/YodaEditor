@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/11/02 14:18:41.000.520,=C:\Users\Owner\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/11/09 17:48:10.000.071,=C:\Users\Owner\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/11/09 22:42:14.000.378,=C:\Users\Owner\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2013/11/09 22:43:28.000.677,C:\Users\Owner\Documents\RAD Studio\Projects\Unit1.dfm=C:\DelphiSrc\ZenWriter\MainForm.dfm</Transaction>
+    <Transaction>2013/11/09 22:43:28.000.677,C:\Users\Owner\Documents\RAD Studio\Projects\Unit1.pas=C:\DelphiSrc\ZenWriter\MainForm.pas</Transaction>
+    <Transaction>2013/11/09 22:43:42.000.523,C:\Users\Owner\Documents\RAD Studio\Projects\Project2.dproj=C:\DelphiSrc\ZenWriter\ZenWriter.dproj</Transaction>
+    <Transaction>2013/11/09 22:46:39.000.413,C:\DelphiSrc\ZenWriter\MainForm.pas=C:\DelphiSrc\ZenWriter\FormUnit.pas</Transaction>
+    <Transaction>2013/11/09 22:46:39.000.413,C:\DelphiSrc\ZenWriter\MainForm.dfm=C:\DelphiSrc\ZenWriter\FormUnit.dfm</Transaction>
+    <Transaction>2013/11/09 22:48:54.000.753,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/09 22:49:10.000.034,C:\DelphiSrc\ZenWriter\Unit1.pas=C:\DelphiSrc\ZenWriter\ColorUnit.pas</Transaction>
+    <Transaction>2013/11/09 22:51:25.000.018,=C:\DelphiSrc\ColorSchema\ColorUnit.pas</Transaction>
+    <Transaction>2013/11/09 22:51:56.000.700,C:\DelphiSrc\ColorSchema\ColorUnit.pas=C:\DelphiSrc\ZenWriter\ColorUnit.pas</Transaction>
+    <Transaction>2013/11/09 23:11:26.000.377,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/09 23:11:43.000.686,C:\DelphiSrc\ZenWriter\Unit1.pas=C:\DelphiSrc\ZenWriter\SolarizedColorUnit.pas</Transaction>
+    <Transaction>2013/11/10 14:12:46.000.246,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:12:59.000.296,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:14:14.000.709,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 14:14:54.000.318,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:15:21.000.147,C:\DelphiSrc\ZenWriter\NinjaPanel.dfm=C:\DelphiSrc\ZenWriter\Unit1.dfm</Transaction>
+    <Transaction>2013/11/10 14:15:21.000.147,C:\DelphiSrc\ZenWriter\NinjaPanel.pas=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:16:17.000.144,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.dfm=C:\DelphiSrc\ZenWriter\NinjaPanel.dfm</Transaction>
+    <Transaction>2013/11/10 14:16:17.000.144,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=C:\DelphiSrc\ZenWriter\NinjaPanel.pas</Transaction>
+    <Transaction>2013/11/10 14:17:12.000.166,C:\DelphiSrc\ZenWriter\test.dfm=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.dfm</Transaction>
+    <Transaction>2013/11/10 14:17:12.000.166,C:\DelphiSrc\ZenWriter\test.pas=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas</Transaction>
+    <Transaction>2013/11/10 14:17:16.000.795,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:17:25.000.317,C:\DelphiSrc\ZenWriter\NinjaPanelUNit.pas=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:17:56.000.027,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:18:04.000.788,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:18:29.000.311,C:\DelphiSrc\ZenWriter\test.pas=</Transaction>
+    <Transaction>2013/11/10 14:19:56.000.934,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 14:20:15.000.373,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 14:20:37.000.656,=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas</Transaction>
+    <Transaction>2013/11/10 14:29:05.000.655,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 14:29:15.000.737,=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas</Transaction>
+    <Transaction>2013/11/10 14:58:59.000.811,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 16:11:56.000.700,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 16:13:40.000.363,C:\DelphiSrc\ZenWriter\Unit1.dfm=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.dfm</Transaction>
+    <Transaction>2013/11/10 16:13:40.000.363,C:\DelphiSrc\ZenWriter\Unit1.pas=C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas</Transaction>
+    <Transaction>2013/11/10 16:15:14.000.956,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 16:15:27.000.089,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 16:15:57.000.742,C:\DelphiSrc\ZenWriter\Unit1.dfm=C:\DelphiSrc\ZenWriter\MenuBarPanelUnit.dfm</Transaction>
+    <Transaction>2013/11/10 16:15:57.000.742,C:\DelphiSrc\ZenWriter\Unit1.pas=C:\DelphiSrc\ZenWriter\MenuBarPanelUnit.pas</Transaction>
+    <Transaction>2013/11/10 16:17:27.000.762,C:\DelphiSrc\ZenWriter\MenuBarPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 18:52:06.000.894,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 18:52:35.000.079,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 20:43:20.000.904,=C:\DelphiSrc\ZenWriter\Unit1.pas</Transaction>
+    <Transaction>2013/11/10 20:52:10.000.074,C:\DelphiSrc\ZenWriter\NinjaPanelUnit.pas=</Transaction>
+    <Transaction>2013/11/10 20:54:36.000.445,C:\DelphiSrc\ZenWriter\ColorUnit.pas=</Transaction>
+    <Transaction>2013/11/11 21:38:45.000.464,C:\DelphiSrc\ZenWriter\VCL\ZenWriter.dproj=C:\DelphiSrc\ZenWriter\VCL\ZenWriterVCL.dproj</Transaction>
+    <Transaction>2013/11/11 21:41:03.000.727,C:\DelphiSrc\ZenWriter\VCL\SolarizedColorUnit.pas=C:\DelphiSrc\ZenWriter\FMX\SolarizedColorUnit.pas</Transaction>
+    <Transaction>2013/11/11 21:41:40.000.812,C:\DelphiSrc\ZenWriter\FMX\SolarizedColorUnit.pas=C:\DelphiSrc\ZenWriter\Common\SolarizedColorUnit.pas</Transaction>
+    <Transaction>2013/11/15 23:06:19.000.301,C:\DelphiSrc\ZenWriter\Common\SolarizedColorUnit.pas=</Transaction>
+    <Transaction>2013/11/15 23:06:24.000.037,=C:\DelphiSrc\ZenWriter\VCL\Unit1.pas</Transaction>
+    <Transaction>2013/11/15 23:06:37.000.769,=C:\DelphiSrc\ZenWriter\FMX\SolarizedColorUnit.pas</Transaction>
+    <Transaction>2013/11/16 16:55:33.000.262,C:\DelphiSrc\ZenWriter\FMX\SolarizedColorUnit.pas=C:\DelphiSrc\ZenWriter\VCL\SolarizedColorUnit.pas</Transaction>
+    <Transaction>2013/11/16 16:57:58.000.590,C:\DelphiSrc\ZenWriter\VCL\ZenWriterVCL.dproj=C:\DelphiSrc\ZenWriter\VCL\YodaEditor.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

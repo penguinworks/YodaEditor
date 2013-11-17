@@ -1,0 +1,25 @@
+unit MenuBarPanelUnit;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TMenuBarPanel = class(TDataModule)
+  private
+    { Private éŒ¾ }
+  public
+    { Public éŒ¾ }
+  end;
+
+var
+  MenuBarPanel: TMenuBarPanel;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

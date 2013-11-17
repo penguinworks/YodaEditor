@@ -1,0 +1,16 @@
+unit SolarizedColorUnit;
+
+interface
+
+uses
+    System.SysUtils,
+    System.Classes;
+
+                   var
+                      base03 : TColor ;
+
+
+
+implementation
+
+end.

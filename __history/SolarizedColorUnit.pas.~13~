@@ -1,0 +1,23 @@
+unit SolarizedColorUnit ;
+
+interface
+
+  uses
+    System.SysUtils ,
+    System.Classes ,
+    Vcl.Graphics ;
+
+  var
+    base03 ,
+      base02 ,
+      base01 ,
+      base00 ,
+      base0 ,
+      base1 ,
+      base2 ,
+      base3,
+      : TColor ;
+
+implementation
+
+end.

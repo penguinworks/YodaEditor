@@ -1,0 +1,46 @@
+//NOTE =========================================================================
+// Title      : SolarizedColorUnit
+//==============================================================================
+// License    : MIT
+// Author     : Penguin-Works
+// Make       : 2013/11/09
+// Finish     : 2013/11/09
+// LastSave   : 2013/11/09
+//==============================================================================
+// Abstruct   :
+//            Solarized Color for Delphi
+//
+//            Original Color Code By
+//            http://ethanschoonover.com/solarized
+//==============================================================================
+unit SolarizedColorUnit ;
+
+interface
+
+  uses
+    System.SysUtils ,
+    System.Classes ,
+    Vcl.Graphics ;
+
+  var
+    base03 ,
+      base02 ,
+      base01 ,
+      base00 ,
+      base0 ,
+      base1 ,
+      base2 ,
+      base3 ,
+      yellow ,
+      orange ,
+      red ,
+      magenta ,
+      violet ,
+      blue ,
+      cyan ,
+      green
+      : TColor ;
+
+implementation
+
+end.

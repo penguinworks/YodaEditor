@@ -1,0 +1,40 @@
+// NOTE =========================================================================
+// Title      : SolarizedColorUnit
+// ==============================================================================
+// License    : MIT
+// Author     : Penguin-Works
+// Make       : 2013/11/09
+// Finish     : 2013/11/09
+// LastSave   : 2013/11/09
+// ==============================================================================
+// Abstruct   :
+// Solarized Color for Delphi
+//
+// Original Color Code By
+// http://ethanschoonover.com/solarized
+// ==============================================================================
+unit SolarizedColorUnit ;
+
+interface
+
+  uses
+    Winapi.Windows ,
+    System.SysUtils ,
+    System.Classes ,
+    Vcl.Graphics ;
+
+  type
+    TSolarised = class
+
+      private
+        fBase03 : TColor ;
+
+      public
+        property base03 : TColor read fBase03 ;
+
+
+    end ;
+
+implementation
+
+end.

@@ -1,0 +1,15 @@
+program ZenWriterVCL;
+
+uses
+  Vcl.Forms,
+  FormUnit in 'FormUnit.pas' {MainForm},
+  SolarizedColorUnit in '..\Common\SolarizedColorUnit.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.Run;
+end.
